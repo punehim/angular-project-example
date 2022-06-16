@@ -1,5 +1,5 @@
 # STAGE 1
-FROM node:latest as node
+FROM node:18-buster-slim as node
 WORKDIR /app
 COPY . .
 RUN npm install
